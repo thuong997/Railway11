@@ -5,8 +5,18 @@ public class Account {
 	String email;
 	String userName;
 	String fullName;
-	Department depaetmentId;
-	Position positionId;	
+	Department department;
+	Position position;	
 	Date createDate;
-	Group[] groups;
-}
+	@Override
+	public String toString() {
+		return "Account [accountId=" + accountId + ", email=" + email + ", userName=" + userName + ", fullName="
+				+ fullName + ", department=" + department + ", position=" + position + ", createDate=" + createDate
+				+ "]";
+	}
+	
+	}
+	
+	
+	
+

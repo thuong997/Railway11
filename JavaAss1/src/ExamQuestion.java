@@ -1,5 +1,10 @@
 
 public class ExamQuestion {
-	Exam examId;
-	Question questionId;
+	Exam exam;
+	Question question;
+	@Override
+	public String toString() {
+		return "ExamQuestion [exam=" + exam + ", question=" + question + "]";
+	}
+	
 }
