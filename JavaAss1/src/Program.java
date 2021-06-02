@@ -22,17 +22,17 @@ public class Program {
 		//create position
 		Position position1 = new Position();
 		position1.positionId = 1;
-		position1.positionName = Enum.DEV;
+		position1.positionName = PositionName.DEV;
 		
 		System.out.println(position1.toString());
 		
 		Position position2 = new Position();
 		position2.positionId = 2;
-		position2.positionName = Enum.DEV;
+		position2.positionName = PositionName.DEV;
 		
 		Position position3 = new Position();
 		position3.positionId = 3;
-		position3.positionName = Enum.TEST;
+		position3.positionName = PositionName.TEST;
 		
 		//create account
 		Account account1 = new Account();

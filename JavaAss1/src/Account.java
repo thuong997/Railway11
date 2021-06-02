@@ -8,6 +8,7 @@ public class Account {
 	Department department;
 	Position position;	
 	Date createDate;
+	Group[] groups;
 	@Override
 	public String toString() {
 		return "Account [accountId=" + accountId + ", email=" + email + ", userName=" + userName + ", fullName="

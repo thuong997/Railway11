@@ -8,4 +8,10 @@ public class Exam {
 	int duration;
 	Account account;
 	Date createDate;
+	@Override
+	public String toString() {
+		return "Exam [examId=" + examId + ", code=" + code + ", title=" + title + ", category=" + category
+				+ ", duration=" + duration + ", account=" + account + ", createDate=" + createDate + "]";
+	}
+	
 }

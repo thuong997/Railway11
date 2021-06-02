@@ -5,6 +5,7 @@ public class Group {
 	String groupName;
 	Account account;
 	Date createDate;
+	Account[] accounts;
 	@Override
 	public String toString() {
 		return "Group [groupId=" + groupId + ", groupName=" + groupName + ", account=" + account + ", createDate="
