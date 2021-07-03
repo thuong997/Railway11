@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h2>Register</h2><br>
+    <p><i>please <b>fill in this form</b> to create an account</i></p>
+    <form>
+        <label>Full name *</label><br>
+        <input type="text" placeholder="input your fullname..."><br>
+
+        <label>Username *</label><br>
+        <input type="text" placeholder="input your username..."><br>
+
+        <label>Password *</label><br>
+        <input type="password" placeholder="input your password..."><br>
+
+        <label>Email *</label><br>
+        <input type="email" placeholder="input your email..."><br>
+
+        <label>Telephone number *</label><br>
+        <input type="text" placeholder="input your phone number..."><br>
+
+        <p>Input object</p><br>
+        <input type="radio" name="Input object" value="Student">Student
+        <input type="radio" name="Input object" value="Teacher">Teacher
+
+        <p>Favorite</p>
+        <input type="checkbox" name="Favorite" value="Badminton">Badminton
+        <input type="checkbox" name="Favorite" value="Volleyball">Volleyball
+        <input type="checkbox" name="Favorite" value="Football">Football<br>
+
+        <label>Address *</label><br>
+        <input list="City" name="City">
+        <datalist id="City">
+            <option value="Hà Nội">
+            <option value="Hà Nam">
+            <option value="Hải Phòng">
+            <option value="Bắc Ninh">
+            <option value="Nam Định">
+            <option value="Ninh Bình">
+        </datalist><br>
+
+        <label>Birthday *</label><br>
+        <input type="text" placeholder="mm/dd/yyyy"><br>
+
+        <label>Your picture *</label><br>
+        <input type="file" name="choose File" accept="image/*"><br>
+        <input type="submit" value="Đăng ký"><br>
+</body>
+
+</html>
