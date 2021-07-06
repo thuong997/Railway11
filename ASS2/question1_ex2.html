@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+        
+        table#t01 th {
+            background-color: peru;
+            color: white;
+        }
+        
+        table#t01 tr:nth-child(even) {
+            background-color: white;
+        }
+        
+        table#t01 tr:nth-child(odd) {
+            background-color: rgb(237, 187, 160);
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid rgb(255, 164, 255);
+            border-collapse: collapse;
+        }
+        
+        table#t02 th {
+            background-color: red;
+            color: white;
+        }
+        
+        table#t02 tr:nth-child() {
+            background-color: white;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid grey;
+            border-collapse: collapse;
+        }
+        
+        table#t03 td:nth-child() {
+            background-color: greenyellow;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        <h1><b>Bài 1: Sử dụng các tag cơ bản</b></h1><br></p>
+    <p><b><u>Yêu cầu</u></b></p><br>
+    <p><b>Thiết kế trang có nội dung như sau:</b></p><br>
+    <p style="text-align: center;">Lập trình web</p>
+    <p style="text-align: center;">Chào mừng bạn đến với ngôn ngữ HTML</p>
+
+    <h1 style="text-align: center; color: green;">Bài 2: Sử dụng các tag cơ bản(tt)</h1><br>
+    <p<b><u style="color: blue;">Yêu cầu</u></b>
+        </p>
+        <p><b>Thiết kế trang web có nội dung như sau:</b></p>
+
+        <p style="background-color: pink; text-align: center; color: rgb(241, 19, 93);">
+            Mẹ</p>
+        <div style="background-color: rgb(243, 247, 129);">
+            <p style="text-align: center; color:blue;">
+                Mẹ là cả 1 trời thương<br> Mẹ là cả một thiên đường trần gian<br> Công ơn cha mẹ tựa biển trời</p>
+            <hr / width="40%">
+            <p style=" text-align: center; color:red;">
+                Làm sao báo hiếu hỡi người ơi?<br> Nếu chưa báo hiếu đừng bất hiếu<br> Bất hiếu làm ta khổ muôn đời</p>
+            <hr / width="40%">
+            <p style=" text-align: center; color:green;">
+                Một đời vốn liếng mẹ trao<br> Mẹ cho tất cả mẹ nào giữ riêng<br> Mẹ hiền như một bà tiên<br> Mẹ theo con suốt hành trình con đi</p>
+            <hr / width="40%">
+        </div><br>
+        <h1 style="color: green; text-align: center">Định dạng văn bản</h1><br>
+        <b><u>Hóa học:</u></b><i> Nước: </i><span style="color: red;">H<sub>2</sub>O;</span><i> Axit Sunfuric: </i><span style="color: red;">H<sub>2</sub>SO<sub>4</sub></span><br>
+        <b><u>Toán học: </u></b><i>Phương trình bậc 2: </i><span style="color: red;">ax<sup>2</sup>+bx+c=0</span><br>
+        <b><u>Tin học:</u></b><i>Vòng lặp for</i><br>
+        <div style="background-color: rgb(189, 189, 189);">
+            <p style="text-align: center;">for i = 0 To 10</p>
+            <p style="padding: 0 0 0 710px;">Tong = Tong + 1</p>
+            <p style="padding: 0 0 0 620px;">Next</p>
+        </div><br>
+        <h1 style="color: rgb(233, 51, 142); text-align: center;">Công ty Hoa tươi Nhân Ái</h1>
+        <img src="hinhanh/hoatuoi.PNG" style="width: 200px;height: 250px; float: left;">
+
+        <ol type="1" style="padding-left: 300px;">
+            <li>
+                <mark style="background-color: hotpink;"> 
+                Giới thiệu
+                </mark>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        Thành lập ngày 25/05/2007
+                    </li>
+                    <li>
+                        Chuyên cung cấp hoa tười
+                    </li>
+                    <li>
+                        Có trên 20 cửa hàng tại TP HCM
+                    </li>
+                </ul>
+            </li>
+            <hr>
+            <li>
+                <mark style="background-color: hotpink;"> 
+                Liên hệ
+                </mark>
+                <ul style="list-style-type: circle;">
+                    <li>
+                        Điện thoại:12435678
+                    </li>
+                    <li>
+                        Địa chỉ: 227 nguyễn văn cừ
+                    </li>
+                </ul>
+            </li>
+        </ol><br>
+        <p>
+            <span><i style="color: palevioletred;" class="fa fa-copyright">Copyright: </i> </span>
+            <a href="">Trung Tâm Tin Học VTI Academy</a>
+        </p><br>
+
+        <div style="background-color: rgb(237,187,160);">
+            <h1 style="color: peru; text-align: center;">Các món ngon Hà Nội</h1><br>
+            <img src="hinhanh/banh.PNG" style="width: 200px;height: 250px; float: left;">
+            <table id="t01" style="width: 80%;height: 300px;">
+                <tr>
+                    <th>STT</th>
+                    <th>Tên món ăn</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Bánh cuốn thanh trì</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Xôi Hà Nội</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Chả cá Lã Vọng</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Cháo cốc</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Bánh gai Ninh Giang</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Bún than Hà Nội</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Canh lắng</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Bún chả</td>
+                </tr>
+            </table><br>
+            <br>
+
+        </div><br>
+        <br>
+        <h1 style="color: red; text-align: center;">Chương trình học-ngành lập trình</h1><br>
+        <table id="t02" style="width: 100%;height: 200px;">
+            <tr>
+                <th rowspan="2">Nhóm học phần</th>
+                <th rowspan="2">Môn học</th>
+                <th colspan="2">Số tiết</th>
+            </tr>
+            <tr>
+                <th>Lý thuyết</th>
+                <th>Thực hành</th>
+            </tr>
+            <tr>
+                <td rowspan="6" style="color: red; text-align: center;"><b>I<br>Tin học văn phòng</b></td>
+                <td>Hệ điều hành windows</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;">5</td>
+            </tr>
+            <tr>
+                <td>Sử dụng internet</td>
+                <td style="text-align: center;">3</td>
+                <td style="text-align: center;">5</td>
+            </tr>
+            <tr>
+                <td>Soạn thảo văn bản với MS Word</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">40</td>
+            </tr>
+            <tr>
+                <td>Tạo bài trình diễn với MS Power Point</td>
+                <td style="text-align: center;">9</td>
+                <td style="text-align: center;">15</td>
+            </tr>
+            <tr>
+                <td>Xử lý số liệu với MS Excel</td>
+                <td style="text-align: center;">24</td>
+                <td style="text-align: center;">40</td>
+            </tr>
+            <tr>
+                <td>Tạo trang web với frontpage</td>
+                <td style="text-align: center;">9</td>
+                <td style="text-align: center;">15</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="color: red; text-align: center;"><b>II<br>Kỹ thuật lập trình(VB.NET)</b></td>
+                <td>Nhập môn lập trình </td>
+                <td style="text-align: center;">36</td>
+                <td style="text-align: center;">60</td>
+            </tr>
+            <tr>
+                <td>Kỹ thuật lập trình </td>
+                <td style="text-align: center;">36</td>
+                <td style="text-align: center;">60</td>
+            </tr>
+            <tr>
+                <td colspan="4">.......</td>
+            </tr>
+
+        </table><br>
+
+        <h1 style="color: green; text-align: center;">Phiếu đăng ký tham gia chương trình khuyến mại</h1><br>
+        <table id="t03" style="width: 100%;height: 400px; background-color: greenyellow; color: green;">
+            <tr>
+                <td>Họ và tên</td>
+                <td><input type="text" placeholder="Nhập họ tên"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><input type="text" placeholder="Nhập địa chỉ"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="text" placeholder="Nhập số điện thoại"></td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td><input type="radio" name="Input object" value="Student">Nam
+                    <input type="radio" name="Input object" value="Teacher">Nữ</td>
+            </tr>
+            <tr>
+                <td>Nghề nghiệp</td>
+                <td><select name="Nghề nghiệp">
+                    <option value="Giáo viên">Giáo viên</option>
+                    <option value="Shipper">Shipper</option>
+                    <option value="Công nhân">Công nhân</option>
+                    <option value="Nhân viên">Nhân viên</option>
+                    
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Chọn sản phẩm tham gia</td>
+                <td><select name="sản phẩm">
+                    <option value="kem đánh răng">kem đánh răng</option>
+                    <option value="bột giặt">bột giặt</option>
+                    <option value="sữa tắm">sữa tắm</option>
+                    <option value="dầu gội đầu">dầu gội đầu</option>
+                    
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Số người dự đoán tham gia</td>
+                <td><input type="text" placeholder="25000"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit" value="Đồng ý"> </td>
+            </tr>
+
+        </table><br>
+        <p style="color: blue;"><b>I.Đọc sách giúp rèn luyện ngôn ngữ</b></p>
+        <p><b>Vốn</b> từ ngữ được mở rộng Điều này đi liền với lợi ích 3: bạn đọc càng nhiều, càng được tiếp xúc với nhiều từ ngữ, chắc chắn rằng tất cả sẽ đi vào vốn từ vựng hàng ngày của bạn. Ăn nói lưu loát và khéo léo giúp ích rất nhiều trong bất kỳ
+            ngành nghề nào, và nếu bạn có thể nói chuyện với sự tự tin có nghĩa là lòng tự trọng của bạn đã được nâng cao lên rất nhiều. Điều này thậm chí có thể giúp rất nhiều cho sự nghiệp của bạn, như những người đọc nhiều hiểu rộng, ăn nói khéo léo
+            và am hiểu về nhiều chủ đề có khuynh hướng được thăng chức nhanh hơn(và thường xuyên hơn) so với những người có vốn từ vựng hạn chế và thiếu nhận thức về văn học, đột phá khoa học, hay các sự kiện toàn cầu. Đọc sách cũng rất quan trọng cho
+            việc học ngôn ngữ mới, như khi bạn tiếp xúc với nhiều từ ngữ được sử dụng trong từng bối cảnh cụ thể, sẽ cải thiện kỹ năng nói và viết của mình lưu loát hơn.</p>
+        <p style="color: blue;"><b>II.Bài kết thúc</b></p>
+        <p><b>Cải thiện trí nhớ:</b> Khi bạn đọc 1 cuốn sách bạn phải nhớ từng nhân vật, nguồn gốc của họ, tham vọng, lịch sử và sắc thái, cũng như mỗi chi tiết liên quan đến mỗi nhân vật trong mỗi câu chuyện. Những điều này khá nhiều để nhớ, nhưng não là
+            1 bộ phận tuyệt với để ghi nhớ tất cả một cách tương đối. Thật ngạc nhiên mỗi bộ nhớ mới mà bạn tạo ra sẽ liên hợp với các khớp thần kinh mới( chuỗi phản ứng hóa sinh trong não bộ) và tăng cường cái hiện có, hỗ trợ trí nhớ ngắn hạn cũng như
+            thăng bằng tâm trạng.</p><br>
+        <img src="hinhanh/kinh.PNG" style="width: 70%;height: 400px; padding: 0 150px;">
+        <hr / width="100%">
+</body>
+
+</html>
