@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".hid").click(function() {
+                $("p").hide();
+            });
+            $(".sho").click(function() {
+                $("p").show();
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <p>Nhấn hide đi biến mất cho coi</p>
+    <button class="hid">hide</button>
+    <button class="sho">show</button>
+</body>
+
+</html>

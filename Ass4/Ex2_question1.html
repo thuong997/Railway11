@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#box").fadeIn();
+                $("#box1").fadeIn("slow");
+                $("#box2").fadeIn(3000);
+            });
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <p>Demonstrate fadein() with defferent parameter</p>
+    <button>Click to Fade in boxes</button><br><br>
+    <div id="box" style="width: 100px;height: 100px;display: none; background-color: blue;"></div><br>
+    <div id="box1" style="width: 100px;height: 100px;display: none; background-color: red;"></div><br>
+    <div id="box2" style="width: 100px;height: 100px;display: none; background-color: greenyellow;"></div><br>
+</body>
+
+</html>

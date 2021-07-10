@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#box").fadeOut();
+                $("#box1").fadeIn();
+
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+    <button>Start Animation</button><br>
+    <p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to firts set the CSS postion property of the element to relative, fixed, or absolute!</p>
+
+    <img src="huanrose.png" style="width: 230px;height: 400px;" id="box">
+    <img src="huanrose.png" style="width: 380px;height: 550px;display: none;" id="box1">
+
+</body>
+
+</html>
