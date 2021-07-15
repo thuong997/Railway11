@@ -9,23 +9,19 @@
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-</head>
-
-<body>
-    <button class="btn">Start Animation</button>
-    <div style="background-color: blue; width: 100px; height: 100px; position: relative; margin-top: 20px;"> </div>
     <script>
         $(document).ready(function() {
-            $(".btn").click(function() {
-                var div = $("div");
-                div.animate({
-                    left: '250px',
-                }, 2000);
-
+            $("button").click(function() {
+                alert("Value: " + $('#names').val());
             });
         });
     </script>
+</head>
+
+<body>
+    <p>Name: <input type="text" id="names" value="Huấn Rose"></p>
+
+    <button>Show Value</button>
 </body>
 
 </html>

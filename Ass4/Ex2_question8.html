@@ -12,11 +12,11 @@
     <script>
         $(document).ready(function() {
             $("button").click(function() {
-                $("#box").slideUp();
+                $("#box").stop();
 
             });
             $(".dow").click(function() {
-                $("#box").slideDown();
+                $("#box").slideDown(4000);
 
             });
         });
