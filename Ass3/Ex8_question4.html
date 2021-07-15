@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Number 1</td>
+            <td><input id="a"></td>
+        </tr>
+        <tr>
+            <td>Number 2</td>
+            <td><input id="b"></td>
+        </tr>
+        <tr>
+            <td>Option</td>
+            <td>
+                <select id="mySelect">
+                        <option value="add">add</option>
+                        <option value="sub">sub</option>
+                        <option value="divide">divide</option>
+                        <option value="multiply">multiply</option>
+                      </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Result</td>
+            <td><input id="ketqua" readonly></td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;"><button onclick="myFun()">Calculate</button></td>
+        </tr>
+    </table>
+    <script>
+        function myFun() {
+            var a = document.getElementById("a").value;
+            var b = document.getElementById("b").value;
+            var myselect = document.getElementById("mySelect").value;
+            if (myselect == "add") {
+                document.getElementById("ketqua").value = Number(a) + Number(b);
+            } else if (myselect == "sub") {
+                document.getElementById("ketqua").value = Number(a) - Number(b);
+            } else if (myselect == "divide") {
+                document.getElementById("ketqua").value = Number(a) / Number(b);
+            } else if (myselect == "multiply") {
+                document.getElementById("ketqua").value = Number(a) * Number(b);
+            }
+
+        }
+    </script>
+</body>
+
+</html>
